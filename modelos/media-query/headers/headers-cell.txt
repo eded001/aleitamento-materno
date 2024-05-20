@@ -1,0 +1,16 @@
+// cell
+header {
+    gap: 0;
+}
+header article {
+    width: auto;
+}
+header img { width: 100% }
+header img { height: auto }
+header article h1 {
+    font-size: 1.9em;
+}
+header article p {
+    font-size: 1em;
+}
+header article p, header article h1 { text-align: center }
