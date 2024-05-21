@@ -1,16 +1,21 @@
 // cell
+// header02
 header {
     gap: 0;
 }
 header article {
     width: auto;
+    padding: 0 25px;
 }
-header img { width: 100% }
-header img { height: auto }
+header img {
+    width: 100%;
+    height: auto;
+}
 header article h1 {
     font-size: 1.9em;
 }
 header article p {
     font-size: 1em;
 }
-header article p, header article h1 { text-align: center }
+header article h1 { text-align: center }
+header article p { text-align: justify }
