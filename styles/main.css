@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body::-webkit-scrollbar { border-radius: 10px }
+body::-webkit-scrollbar-button { background-color: #7F318D }
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px solid #D293DD;
+    background-color: #C16DD0;
+}
+body::-webkit-scrollbar-track-piece {
+    background-color: #AF48C2;
+}
