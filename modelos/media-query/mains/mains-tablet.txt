@@ -1,0 +1,38 @@
+/* main01 */
+main article section {
+    padding: 0 15px;
+    gap: 0;
+}
+main section .content h1 {
+    font-size: 2.5em;
+    top: -17px;
+}
+main article section .content p { font-size: 1.1em }
+    // 2º versão
+    main article section {
+        padding: 0 15px;
+        gap: 35px;
+
+        grid-template-columns: none;
+        align-content: center;
+    }
+    main article section .content p {
+        font-size: 1.1em;
+        margin-left: 0;
+    }
+
+/* main02 */
+main article {
+    grid-template-columns: 1fr 1fr;
+}
+
+/* main03 */
+main article section h2 { font-size: 2em }
+main article section p { font-size: 1.4em }
+main article section img { width: 40% }
+
+/* main04 */
+main article h1 { font-size: 2.5em }
+main article section h2 { font-size: 2em }
+main article section img { width: 40% }
+main article section p { font-size: 1.4em }
