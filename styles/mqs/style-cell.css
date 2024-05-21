@@ -1,0 +1,30 @@
+header {
+    gap: 0;
+}
+header article {
+    width: auto;
+    padding: 0 25px;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+header article h1 {
+    font-size: 1.9em;
+}
+header article p {
+    font-size: 1em;
+}
+header article h1 { text-align: center }
+header article p { text-align: justify }
+
+/* main03, main04 */
+main article {
+    padding: 5px 10px;
+    height: auto;
+}
+main article section img {
+    width: 50%;
+
+    margin: 0 10px 10px;
+}
