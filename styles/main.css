@@ -5,12 +5,57 @@
 }
 
 body::-webkit-scrollbar { border-radius: 10px }
-body::-webkit-scrollbar-button { background-color: #7F318D }
+body::-webkit-scrollbar-button { display: none }
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    border: 2px solid #D293DD;
-    background-color: #C16DD0;
+    border: 3px solid #202020;
+    background-color: #b2b2b2;
 }
-body::-webkit-scrollbar-track-piece {
-    background-color: #AF48C2;
+body::-webkit-scrollbar-track-piece { background-color: #202020 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 100;
+
+    transition: font .2s ease;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+a:active { font-size: 1.1em }
+
+:root {
+    --palette01-color01: #946B94;
+    --palette01-color02: #9F799F;
+    --palette01-color03: #AA88AA;
+    --palette01-color04: #B596B5;
+    --palette01-color05: #C0A5C0;
+    --palette01-color06: #CBB4CB;
+    --palette01-color07: #D6C2D6;
+    --palette01-color08: #E0D1E0;
+    --palette01-color09: #EBE0EB;
+    --palette01-color10: #F5F0F5;
+    --contrast01-color01: #683a68;
+    --contrast01-color02: #3f323f;
+    --contrast01-color03: #5d395d;
+    --contrast01-color04: #7d597d;
+
+    --palette02-color01: #DC4223;
+    --palette02-color02: #E05438;
+    --palette02-color03: #E4674E;
+    --palette02-color04: #E87A64;
+    --palette02-color05: #EB8D7A;
+    --palette02-color06: #EF9F8F;
+    --palette02-color07: #F3B2A5;
+    --palette02-color08: #F6C5BC;
+    --palette02-color09: #F9D8D2;
+    --palette02-color10: #FCECE8;
+    --contrast02-color01: #782413;
+    --contrast02-color02: #67271a;
+    --contrast02-color03: #400b00;
+    --contrast02-color04: #661403;
+    --contrast02-color05: #5b1b0f;
+    --contrast02-color06: #911901;
+    --contrast02-color07: #812411;
 }
