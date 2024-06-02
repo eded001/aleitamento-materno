@@ -1,0 +1,237 @@
+/* header */
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+
+    background-color: var(--palette02-color01);
+
+    gap: 100px;
+}
+header img { height: 75% }
+header article { width: 35% }
+header article h1 {
+    font-size: 2.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: var(--contrast02-color03);
+}
+header article p {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: var(--contrast02-color04);
+}
+header article { & { text-align: center } }
+
+/* estilos */
+/* estilo01 */
+main article.estilo01 section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+    place-items: center;
+
+    height: 100dvh;
+
+    padding: 0 50px;
+}
+main article.estilo01.roxo section { background-color: var(--palette01-color01) }
+main article.estilo01.laranja section { background-color: var(--palette02-color01) }
+main article.estilo01 img {
+    width: 100%;
+    border-radius: 20px;
+}
+main article.estilo01 section .content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+main article.estilo01 section .content h1 {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: center;
+
+    /* position: absolute;
+
+    top: -75px;
+
+    margin-bottom: 20px; */
+}
+main article.estilo01 section .content p, main article.estilo01 section .content ul, main article.estilo01 section .content ol {
+    text-align: justify;
+
+    padding: 4px 10px 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+
+    border-radius: 5px;
+}
+main article.estilo01.roxo section .content p, main article.estilo01.roxo section .content ul { background-color: var(--palette01-color04) }
+main article.estilo01.roxo section .content p, main article.estilo01.roxo section .content ol { background-color: var(--palette01-color04) }
+main article.estilo01.roxo section .content p, main article.estilo01.roxo section .content ul li { color: var(--contrast01-color01) }
+main article.estilo01.roxo section .content p, main article.estilo01.roxo section .content ol li { color: var(--contrast01-color01) }
+main article.estilo01.laranja section .content p, main article.estilo01.laranja section .content ul { background-color: var(--palette02-color04) }
+main article.estilo01.laranja section .content p, main article.estilo01.laranja section .content ol { background-color: var(--palette02-color04) }
+main article.estilo01.laranja section .content p, main article.estilo01.laranja section .content ul li { color: var(--contrast02-color06) }
+main article.estilo01.laranja section .content p, main article.estilo01.laranja section .content ol li { color: var(--contrast02-color06) }
+main article.estilo01 section .content ul { list-style-position: inside; }
+main article.estilo01 section .content ol { list-style-position: inside; }
+main article.estilo01 section .content p::first-letter { font-size: 1.3em }
+main article.estilo01 section .content h1, main article.estilo01 section .content ul li::marker { color: var(--contrast01-color02) }
+main article.estilo01 section .content h1, main article.estilo01 section .content ol li::marker { color: var(--contrast01-color02) }
+main article.estilo01.roxo section .content h1, main article.estilo01.roxo section .content ul li::marker { color: var(--contrast01-color02) }
+main article.estilo01.roxo section .content h1, main article.estilo01.roxo section .content ol li::marker { color: var(--contrast01-color02) }
+main article.estilo01.laranja section .content h1, main article.estilo01.laranja section .content ul li::marker { color: var(--contrast02-color02) }
+main article.estilo01.laranja section .content h1, main article.estilo01.laranja section .content ol li::marker { color: var(--contrast02-color02) }
+
+/* estilo02 */
+main article.estilo02 {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: start center;
+    column-gap: 10px;
+    row-gap: 20px;
+
+    padding: 95px 10px 10px;
+
+    position: relative;
+}
+main article.estilo02.laranja { background-color: var(--palette02-color01) }
+main article.estilo02.roxo { background-color: var(--palette01-color01) }
+main article.estilo02 h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+
+    display: inline-block;
+    max-width: 90%;
+    width: max-content;
+}
+main article.estilo02.laranja h1 { color: var(--palette02-color03) }
+main article.estilo02.roxo h1 { color: var(--palette01-color04) }
+main article.estilo02 section {
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+
+    position: relative;
+}
+main article.estilo02 section img {
+    width: 100%;
+
+    border-radius: 20px;
+    z-index: 1;
+}
+main article.estilo02 section .content {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 95%;
+
+    display: block;
+    position: relative;
+
+    margin: -10px auto 0;
+}
+main article.estilo02 section .content h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -10%);
+
+    font-size: 1.2em;
+
+    display: inline-block;
+    max-width: 90%;
+    width: max-content;
+
+    text-align: center;
+
+    padding: 2px;
+
+    border-radius: 10px;
+
+    z-index: 2;
+}
+main article.estilo02.laranja section .content h2 {
+    background-color: var(--palette02-color03);
+    color: var(--contrast02-color01);
+}
+main article.estilo02.roxo section .content h2 {
+    background-color: var(--palette01-color03);
+    color: var(--contrast01-color01);
+}
+main article.estilo02 section .content p {
+    padding: 30px 14px 14px;
+    text-align: justify;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+main article.estilo02.laranja section .content p {
+    background-color: var(--palette02-color05);
+    color: var(--contrast02-color02);
+}
+main article.estilo02.roxo section .content p {
+    background-color: var(--palette01-color05);
+    color: var(--contrast01-color02);
+}
+main article.estilo02 section p.espacoCimaDuasLinhas { padding-top: 50px }
+main article.estilo02 section p.espacoCimaTresLinhas { padding-top: 70px }
+
+/* estilo03, estilo04 */
+main article.estilo03, main article.estilo04 {
+    padding: 25px 250px 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+main article.estilo03.roxo, main article.estilo04.roxo { background-color: var(--palette01-color03) }
+main article.estilo03.laranja, main article.estilo04.laranja { background-color: var(--palette02-color03) }
+main article.estilo03 h1, main article.estilo04 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.3em;
+
+    text-align: center;
+}
+main article.estilo03.roxo h1, main article.estilo04.roxo h1 { color: var(--contrast01-color03) }
+main article.estilo03.laranja h1, main article.estilo04.laranja h1 { color: var(--contrast02-color06) }
+main article.estilo03 section h2, main article.estilo04 section h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6em;
+
+    margin-bottom: 4px;
+}
+main article.estilo03.roxo section h2, main article.estilo04.roxo section h2 { color: var(--contrast01-color04) }
+main article.estilo03.laranja section h2, main article.estilo04.laranja section h2 { color: var(--contrast02-color07) }
+main article.estilo03 section img, main article.estilo04 section img {
+    width: 20%;
+
+    margin: 0 10px 10px;
+}
+main article.estilo03 section p, main article.estilo04 section p {
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+main article.estilo03.roxo section p, main article.estilo04.roxo section p { color: var(--palette01-color10) }
+main article.estilo03.laranja section p, main article.estilo04.laranja section p { color: var(--palette02-color10) }
+main article.estilo03 img[src="imgs/amamentacao01.jpg"], img[src="imgs/amamentacao03.jpg"], main article.estilo04 img[src="imgs/amamentacao01.jpg"], img[src="imgs/amamentacao03.jpg"] { float: left}
+main article.estilo03 img[src="imgs/amamentacao02.png"], main article.estilo04 img[src="imgs/amamentacao02.png"] { float: right }
