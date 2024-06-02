@@ -1,0 +1,28 @@
+/* estilo01 */
+main article.estilo01 section {
+    padding: 0 15px;
+    gap: 20px;
+}
+main article.estilo01 section .content h1 {
+    font-size: 2.5em;
+
+    top: -125px;
+    text-align: center;
+}
+main article.estilo01 section .content p { font-size: 1.1em }
+
+/* estilo02 */
+main article.estilo02 { grid-template-columns: 1fr 1fr }
+
+/* estilo3 */
+main article.estilo03 section h2 { font-size: 2em }
+main article.estilo03 section p { font-size: 1.4em }
+main article.estilo03 section img { width: 40% }
+
+/* estilo4 */
+main article.estilo04 h1 { font-size: 2.5em }
+main article.estilo04 section h2 { font-size: 2em }
+main article.estilo04 section img { width: 40% }
+main article.estilo04 section p { font-size: 1.4em }
+
+main article.estilo03, main article.estilo04 { padding: 25px 25px 20px }
