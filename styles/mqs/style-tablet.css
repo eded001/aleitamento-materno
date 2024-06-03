@@ -1,3 +1,20 @@
+header {
+    flex-flow: nowrap row;
+    gap: 50px
+}
+header img {
+    width: 50%;
+    height: auto;
+}
+header article h1 {
+    font-size: 1.2em;
+}
+header article p {
+    font-size: .8em;
+}
+header article h1 { text-align: center }
+header article p { text-align: justify }
+
 /* estilo01 */
 main article.estilo01 section {
     padding: 0 15px;
@@ -13,6 +30,8 @@ main article.estilo01 section .content p { font-size: 1.1em }
 
 /* estilo02 */
 main article.estilo02 { grid-template-columns: 1fr 1fr }
+main article.estilo02 h1 { font-size: 3em }
+main article.estilo02.roxo { padding: 68px 10px 10px }
 
 /* estilo3 */
 main article.estilo03 section h2 { font-size: 2em }
@@ -26,3 +45,10 @@ main article.estilo04 section img { width: 40% }
 main article.estilo04 section p { font-size: 1.4em }
 
 main article.estilo03, main article.estilo04 { padding: 25px 25px 20px }
+
+/* especial */
+.espacoCimaTablet { padding-top: 50px !important }
+#heightExecao {
+    height: auto !important;
+    padding: 10px 0;
+}
