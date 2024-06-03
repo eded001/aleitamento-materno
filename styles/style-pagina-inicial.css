@@ -42,7 +42,7 @@ main article.estilo01 section {
 main article.estilo01.roxo section { background-color: var(--palette01-color01) }
 main article.estilo01.laranja section { background-color: var(--palette02-color01) }
 main article.estilo01 img {
-    width: 100%;
+    width: 90%;
     border-radius: 20px;
 }
 main article.estilo01 section .content {
@@ -235,3 +235,9 @@ main article.estilo03.roxo section p, main article.estilo04.roxo section p { col
 main article.estilo03.laranja section p, main article.estilo04.laranja section p { color: var(--palette02-color10) }
 main article.estilo03 img[src="imgs/amamentacao01.jpg"], img[src="imgs/amamentacao03.jpg"], main article.estilo04 img[src="imgs/amamentacao01.jpg"], img[src="imgs/amamentacao03.jpg"] { float: left}
 main article.estilo03 img[src="imgs/amamentacao02.png"], main article.estilo04 img[src="imgs/amamentacao02.png"] { float: right }
+
+/* especial */
+#heightExecao {
+    height: auto !important;
+    padding: 10px 0;
+}
