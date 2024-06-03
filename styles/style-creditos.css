@@ -1,0 +1,32 @@
+body {
+    background-color: #29796A;
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+
+    align-content: center;
+}
+body > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color: #12312B;
+}
+article {
+    border-radius: 10px;
+
+    padding: 10px;
+
+    background-color: #31917F;
+}
+article section h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #1A4940
+}
+article section ol li { list-style-position: inside }
+article section ol li::marker { color: #41C1A9 }
+article section ol li, article section p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #58C9B4;
+}
