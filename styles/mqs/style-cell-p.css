@@ -8,14 +8,14 @@ header article {
     padding: 0 25px;
 }
 header img {
-    width: 95%;
+    width: 70%;
     height: auto;
 }
 header article h1 {
-    font-size: 1.9em;
+    font-size: 1em;
     text-align: center
 }
-header article p { font-size: 1em }
+header article p { font-size: .8em }
 
 /* estilo01 */
 main article.estilo01 section {
@@ -62,7 +62,7 @@ main article.estilo02 {
 
     padding: 58px 10px 10px;
 }
-main article.estilo02 h1 { font-size: 2.8em }
+main article.estilo02 h1 { font-size: 2.5em }
 
 /* estilo03, estilo04 */
 main article.estilo03, main article.estilo04 { padding: 5px 10px }
@@ -71,3 +71,7 @@ main article.estilo03 section img, main article.estilo04 section img {
 
     margin: 0 10px 10px;
 }
+
+/* especial */
+.espacoCima { padding-top: 185px !important }
+.espacoCimaDuasLinhasEspecialCell { padding-top: 50px !important }

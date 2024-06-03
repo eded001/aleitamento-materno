@@ -1,0 +1,76 @@
+/* header */
+header {
+    gap: 25px;
+    align-content: center;
+}
+header article {
+    width: auto;
+    padding: 0 25px;
+}
+header img {
+    width: 70%;
+    height: auto;
+}
+header article h1 {
+    font-size: 1em;
+    text-align: center
+}
+header article p { font-size: .8em }
+
+/* estilo01 */
+main article.estilo01 section {
+    grid-template-columns: none;
+
+    padding: 20px 15px;
+
+    gap: 8px;
+
+    align-content: center;
+
+    height: auto;
+}
+main article.estilo01 section.invert {
+    display: flex;
+    flex-direction: column-reverse;
+}
+main article.estilo01 section img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+main article.estilo01 section .content h1 {
+    /* top: -9px; */
+    top: -98px;
+    font-size: 2em;
+    text-align: center;
+}
+main article.estilo01 section .content p, main article.estilo01 section .content ul {
+    font-size: .9em;
+    margin-left: 0;
+}
+main article.estilo01 section .content p, main article.estilo01 section .content ol {
+    font-size: .9em;
+    margin-left: 0;
+}
+main section .content p::first-letter { font-size: 1.1em }
+
+/* estilo02 */
+main article.estilo02 {
+    grid-template-columns: none;
+    grid-template-rows: auto;
+    grid-column: none;
+
+    padding: 58px 10px 10px;
+}
+main article.estilo02 h1 { font-size: 2.5em }
+
+/* estilo03, estilo04 */
+main article.estilo03, main article.estilo04 { padding: 5px 10px }
+main article.estilo03 section img, main article.estilo04 section img {
+    width: 50%;
+
+    margin: 0 10px 10px;
+}
+
+/* especial */
+.espacoCima { padding-top: 185px !important }
