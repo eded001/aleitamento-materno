@@ -73,5 +73,6 @@ main article.estilo03 section img, main article.estilo04 section img {
 }
 
 /* especial */
-.espacoCima { padding-top: 185px !important }
+.espacoCima { padding-top: 195px !important }
 .espacoCimaDuasLinhasEspecialCell { padding-top: 50px !important }
+article[style="padding-top: 165px"] { padding-top: 145px }

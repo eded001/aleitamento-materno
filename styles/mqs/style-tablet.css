@@ -48,7 +48,9 @@ main article.estilo03, main article.estilo04 { padding: 25px 25px 20px }
 
 /* especial */
 .espacoCimaTablet { padding-top: 50px !important }
+.espacoCima { padding-top: 115px !important }
 #heightExecao {
     height: auto !important;
     padding: 10px 0;
 }
+article[style="padding-top: 165px"] { padding-top: 120px !important }
